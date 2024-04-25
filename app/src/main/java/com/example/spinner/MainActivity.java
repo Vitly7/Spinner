@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     private void initSpinner4() {
         List<String> genapList = new ArrayList<>();
 
-        for (int i = 2; i <= 1000; i+=2) {
+        for (int i = 0; i <= 1000; i+=2) {
             genapList.add("Bilangan ke-" + i);
         }
 
