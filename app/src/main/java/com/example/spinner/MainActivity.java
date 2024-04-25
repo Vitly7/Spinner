@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initSpinner3() {
-        List<String> ganilList = new ArrayList<>();
+        List<String> ganjilList = new ArrayList<>();
 
         for (int i = 1; i <= 999; i+=2) {
             ganjilList.add("Bilangan ke-" + i);
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         ArrayAdapter<String> arrayAdapter4 = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, genapList);
-        _spinner4etAdapter(arrayAdapter4);
+        _spinner4.setAdapter(arrayAdapter4);
     }
 
 
